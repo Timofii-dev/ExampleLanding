@@ -16,7 +16,7 @@ import {
 } from 'lucide-react';
 
 // Live generated image paths
-const HERO_IMAGE_PATH = "images/coffe612x612.jpg";
+const HERO_IMAGE_PATH = "https://domkofe.com.ua/wp-content/uploads/2025/03/pexels-patrycja-niebielska-679368477-18332233-1024x683-1.jpg";
 const BEANS_IMAGE_PATH = "https://yi-files.s3.amazonaws.com/products/14000/14200/14207-cover.jpg";
 
 interface MenuItem {
