@@ -16,8 +16,8 @@ import {
 } from 'lucide-react';
 
 // Live generated image paths
-const HERO_IMAGE_PATH = "/src/assets/images/hero_coffee_shop_1779459402631.png";
-const BEANS_IMAGE_PATH = "/src/assets/images/coffee_beans_bag_1779459423691.png";
+const HERO_IMAGE_PATH = "images/coffe612x612.jpg";
+const BEANS_IMAGE_PATH = "https://yi-files.s3.amazonaws.com/products/14000/14200/14207-cover.jpg";
 
 interface MenuItem {
   id: number;
@@ -132,10 +132,10 @@ export default function App() {
     },
     {
       id: 11,
-      name: "Panama Geisha Soberania (Whole Beans)",
+      name: "Panama Catuaí Abu (Whole Beans)",
       category: "beans",
       price: 24.00,
-      desc: "A strictly limited micro-lot of incredible elegance. Floral, delicate experience with hints of peach, rose, and white tea.",
+      desc: "Panama Catuaí Abu — fruity, floral micro-lot with peach and citrus notes.",
       volumeOrWeight: "250g bag"
     }
   ];
@@ -315,9 +315,6 @@ export default function App() {
                   <h4 className="font-bold text-stone-900 text-sm">Weekly Roast Highlight</h4>
                   <p className="text-xs text-stone-500">Ethiopia Gedeo • Delicate jasmine notes & wild peach</p>
                 </div>
-                <span className="text-[11px] font-semibold px-2 py-1 bg-amber-50 text-amber-900 border border-amber-200 rounded-md">
-                  Fresh Crop
-                </span>
               </div>
             </div>
           </div>
@@ -475,7 +472,7 @@ export default function App() {
               <img 
                 src={BEANS_IMAGE_PATH} 
                 alt="Minimally structured kraft paper coffee bean packaging bag from Roast & Read"
-                className="w-full h-full object-cover" 
+                className="w-100 h-40 object-cover"
                 referrerPolicy="no-referrer"
               />
             </div>
