@@ -1,0 +1,6 @@
+{
+  "name": "Daily Brew",
+  "description": "A elegant and minimal light-themed landing page representing Daily Brew, a boutique specialty coffee shop and roastery.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
