@@ -14,10 +14,12 @@ import {
   Menu,
   Info
 } from 'lucide-react';
+import heroImage from './assets/images/hero_coffee_shop_1779459402631.png';
+import beansImage from './assets/images/coffee_beans_bag_1779459423691.png';
 
 // Live generated image paths
-const HERO_IMAGE_PATH = "https://domkofe.com.ua/wp-content/uploads/2025/03/pexels-patrycja-niebielska-679368477-18332233-1024x683-1.jpg";
-const BEANS_IMAGE_PATH = "https://yi-files.s3.amazonaws.com/products/14000/14200/14207-cover.jpg";
+const HERO_IMAGE_PATH = heroImage;
+const BEANS_IMAGE_PATH = beansImage;
 
 interface MenuItem {
   id: number;
