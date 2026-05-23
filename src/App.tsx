@@ -17,7 +17,7 @@ import {
 import heroImage from './assets/images/hero_coffee_shop_1779459402631.png';
 import beansImage from './assets/images/coffee_beans_bag_1779459423691.png';
 
-// Live generated image paths
+
 const HERO_IMAGE_PATH = heroImage;
 const BEANS_IMAGE_PATH = beansImage;
 
@@ -34,11 +34,11 @@ export default function App() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [selectedCategory, setSelectedCategory] = useState<'all' | 'coffee' | 'milk' | 'seasonal' | 'pastry' | 'beans'>('all');
   
-  // Clean, realistic shopping cart state
+
   const [cart, setCart] = useState<{ item: MenuItem; quantity: number }[]>([]);
   const [isCartOpen, setIsCartOpen] = useState(false);
   
-  // Booking workspace / table
+ 
   const [bookingName, setBookingName] = useState('');
   const [bookingEmail, setBookingEmail] = useState('');
   const [bookingDate, setBookingDate] = useState('');
@@ -46,11 +46,11 @@ export default function App() {
   const [bookingPref, setBookingPref] = useState('Quiet window table with outlets');
   const [bookingSubmitted, setBookingSubmitted] = useState(false);
 
-  // General feedback contact form
+  
   const [feedbackSubmitted, setFeedbackSubmitted] = useState(false);
   const [orderSuccess, setOrderSuccess] = useState(false);
 
-  // Simple, realistic cafe menu items (prices in US Dollars - $)
+  
   const menuItems: MenuItem[] = [
     {
       id: 1,
